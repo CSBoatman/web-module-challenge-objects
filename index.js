@@ -123,9 +123,10 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   2. log the reviews array to the console to check your work
 */
 
+delete reviews[7];
+reviews.push({name:"Reyna", rating: 3.5, feedback: "this place is chill with really cool people, great for getting work done on weekdays"})
 
-
-
+console.log(reviews);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Write a function to return a review based on the index of the review in the array.
@@ -138,11 +139,11 @@ Use the getReviewByIndex function below to do the following:
 */
 
 
-function getReviewByIndex(/*Your code here*/) {
-  /*Your code here*/
-}
+function getReviewByIndex(arr, index) {
+  return {name} + " gave the restaurant a " + {rating} + "star review, and their feedback was: " + {feedback};
+};
 
-
+console.log(getReviewByIndex(reviews,0));
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
