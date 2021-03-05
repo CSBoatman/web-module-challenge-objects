@@ -158,8 +158,8 @@ Use the getLastReview function below to do the following:
 */
 
 
-function getLastReview(/*Your code here*/) {
-  /*Your code here*/
+function getLastReview(arr) {
+  // To be honest I have no idea about how to go about this one and at this point I'm burnt out and too tired to break it down.
 } 
 
 
